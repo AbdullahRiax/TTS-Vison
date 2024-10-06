@@ -27,7 +27,7 @@ export default function App() {
       return false;
     }
   };
-
+//
   const openCamera = async () => {
     if (Platform.OS === 'android') {
       const hasPermission = await requestCameraPermission();
